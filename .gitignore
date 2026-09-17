@@ -1,0 +1,19 @@
+# Build output
+run
+*.o
+*.a
+*.so
+
+# Simulation output
+*.vcd
+*.log
+
+# Course-provided model data and test inputs
+data/*
+!data/README.md
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
